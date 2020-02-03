@@ -1,0 +1,22 @@
+{
+  "name": "legendary-sniffle",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "repository": "https://github.com/ahmadhdr/legendary-sniffle.git",
+  "author": "ahmadhdr <ahmadhdr.22@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node ./dist/server.js\""
+  },
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.1.0",
+    "typescript": "^3.7.5"
+  }
+}
